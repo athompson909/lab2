@@ -43,7 +43,7 @@ $(document).ready(function() {
 
 					var list = "";
 					list = "<p>Current weather for "+location+":</p><ul>";
-					list += "<li>temperature: "+temp_string+", "+current_weather;
+					list += "<li>"+temp_string+", "+current_weather;
 					list += "</ul>";
 					$("#weather").html(list);
 				}
