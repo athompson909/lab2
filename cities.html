@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>City Finder</title>
+
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+	<header class="container" id="header">
+		<div class="row" id="header_row">	
+            <img src="header_img.png" width=100%>
+			<p>Weather in Utah Cities</p>
+		</div>
+	</header>
+
+	<section class="container" id="middle">
+		<div class="row">
+			<div class="col-sm-12" id="main">
+				<h4>Interested in knowing what the weather's like?</h4>
+				<div class="col-sm-7">
+				<h4>Start here:</h4>
+				<div id="suggestions">
+					<p>Enter A Utah City:   <input type="text" id="cityfield" value=""><br></p>
+					Suggestion: <span id="txtHint"></span>
+				</div>
+
+				</div>
+
+				<div class="col-sm-5">
+					<input id="button" type="submit" value="See weather details..."><br><br>
+					</form>
+					<p>City:</p>
+					<textarea id="dispcity"></textarea>
+					<br>
+					<br>
+					<div id="weather"></div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+</body>
+</html>

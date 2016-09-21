@@ -1,0 +1,60 @@
+body {
+	background-color: #cccccc;
+}
+
+.container {
+
+    box-shadow: 0 0 30px #000000;
+}
+
+#header {
+}
+
+#header p {
+	position: absolute;
+	font-size: 48px;
+	z-index: 1;
+	top: 40px;
+	left: 650px;
+	margin: 20px 60px;
+	font-style: italic;
+	font-weight: bold;
+	color: #000000;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+
+#middle {
+	padding: 40px;
+	background-color: #f2f2f2;
+	font-size: 24px;
+	height: 1000px;
+}
+
+#middle h4 {
+	font-style: italic;
+	font-size: 32px;
+	padding-bottom: 20px;
+
+}
+
+#middle p {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+
+#suggestions {
+	padding: 20px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	width: 90%;
+	margin: 10px;
+}
+
+#dispcity {
+	height: 40px;
+	width: 80%;
+}
